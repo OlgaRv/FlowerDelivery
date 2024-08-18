@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Flower Shop</h1>
+<p>Explore our collection of beautiful flowers.</p>
+<a href="{% url 'catalog' %}">View Catalog</a>
+{% endblock %}
